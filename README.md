@@ -35,7 +35,6 @@ Local Storage:
 Data is saved to local storage whenever there’s a change in users.
 Loads initial data from local storage on component mount.
 
-
 Form Validation
 Username: Required, 3-15 characters, only letters.
 Email: Required, 10-25 characters, only letters.
@@ -43,4 +42,4 @@ Mobile: Required, exactly 10 digits.
 Customization
 You can modify the validation rules, styles, or add new fields in Form.js based on your requirements.
 \
-[Form Screenshot](./src/assets/img/back.png) | ![Table Screenshot](./images/table.png) 
+[Form Screenshot](./src/assets/img/back.png) | ![Table Screenshot](./images/table.png)
