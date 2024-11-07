@@ -80,18 +80,18 @@ const Form = () => {
                   value: true,
                   message: "Enter username",
                 },
-                // minLength: {
-                //   value: 3,
-                //   message: "Enter min 3 character",
-                // },
-                // maxLength: {
-                //   value: 15,
-                //   message: "Enter max 10 character",
-                // },
-                // pattern: {
-                //   value: /[A-Za-z]/,
-                //   message: "Enter only characters",
-                // },
+                minLength: {
+                  value: 3,
+                  message: "Enter min 3 character",
+                },
+                maxLength: {
+                  value: 15,
+                  message: "Enter max 10 character",
+                },
+                pattern: {
+                  value: /[A-Za-z]/,
+                  message: "Enter only characters",
+                },
               })}
             />
             <p className="text-danger">{errors?.username?.message}</p>
@@ -106,18 +106,18 @@ const Form = () => {
                   value: true,
                   message: "Enter email",
                 },
-                // minLength: {
-                //   value: 10,
-                //   message: "Enter min 10 character",
-                // },
-                // maxLength: {
-                //   value: 25,
-                //   message: "Enter max 25 character",
-                // },
-                // pattern: {
-                //   value: /[A-Za-z]/,
-                //   message: "Enter only characters",
-                // },
+                minLength: {
+                  value: 10,
+                  message: "Enter min 10 character",
+                },
+                maxLength: {
+                  value: 25,
+                  message: "Enter max 25 character",
+                },
+                pattern: {
+                  value: /[A-Za-z]/,
+                  message: "Enter only characters",
+                },
               })}
             />
             <p className="text-danger">{errors?.email?.message}</p>
@@ -132,17 +132,17 @@ const Form = () => {
                   value: true,
                   message: "Enter mobile",
                 },
-                // minLength: {
-                //   value: 10,
-                //   message: "Enter min 10 character",
-                // },
-                // maxLength: {
-                //   value: 10,
-                //   message: "Enter max 10 character",
-                // },
-                // pattern: {
-                //   value: /[0-9]/,
-                // },
+                minLength: {
+                  value: 10,
+                  message: "Enter min 10 character",
+                },
+                maxLength: {
+                  value: 10,
+                  message: "Enter max 10 character",
+                },
+                pattern: {
+                  value: /[0-9]/,
+                },
               })}
             />
             <p className="text-danger">{errors?.mobile?.message}</p>
