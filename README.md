@@ -42,3 +42,5 @@ Email: Required, 10-25 characters, only letters.
 Mobile: Required, exactly 10 digits.
 Customization
 You can modify the validation rules, styles, or add new fields in Form.js based on your requirements.
+\
+[Form Screenshot](./src/assets/img/back.png) | ![Table Screenshot](./images/table.png) 
